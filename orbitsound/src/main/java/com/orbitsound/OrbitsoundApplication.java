@@ -9,6 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class OrbitsoundApplication implements CommandLineRunner {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(OrbitsoundApplication.class, args);
 	}
 
