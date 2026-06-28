@@ -3,9 +3,10 @@ package com.orbitsound.main;
 import java.util.Scanner;
 
 public class Main {
+    private Scanner input = new Scanner(System.in);
 
     public void showMenu() {
-        Scanner input = new Scanner(System.in)
+
         var option = -1;
 
         while(option != 0) {
@@ -26,11 +27,11 @@ public class Main {
 
             switch(option) {
                 case 1:
-                    cadastrasArtistas();
+                    cadastrarArtistas();
                 break;
 
                 case 2:
-                    cadastrasMusicas();
+                    cadastrarMusicas();
                 break;
 
                 case 3:
@@ -40,7 +41,31 @@ public class Main {
                 case 4:
                     buscarMusicasPorArtista();
                 break;
+
+                case 5:
+                    pesquisarSobreUmArtista();
+                break;
+
+                case 0:
+
+                break;
             }
         }
+    }
+
+    private void cadastrarArtistas() {
+    }
+
+    private void cadastrarMusicas() {
+    }
+
+    private void listarMusicas() {
+        
+    }
+
+    private void buscarMusicasPorArtista() {
+    }
+
+    private void pesquisarSobreUmArtista() {
     }
 }
