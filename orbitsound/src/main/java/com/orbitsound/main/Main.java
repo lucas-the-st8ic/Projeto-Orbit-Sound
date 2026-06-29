@@ -21,9 +21,8 @@ public class Main {
                     ======================================
                     0 - Sair
                     --------------------------------------
-                    "Digite sua opção:  
-                    """;
-            System.out.println(menu);
+                    "Digite sua opção:      """;
+            System.out.print(menu+ " ");
             option = input.nextInt();
 
             switch(option) {
