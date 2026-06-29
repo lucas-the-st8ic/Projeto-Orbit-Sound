@@ -20,10 +20,11 @@ public class Main {
                     5 - Pesquisar dados sobre um artista
                     ======================================
                     0 - Sair
+                    --------------------------------------
+                    "Digite sua opção:  
                     """;
             System.out.println(menu);
             option = input.nextInt();
-            input.nextLine();
 
             switch(option) {
                 case 1:
